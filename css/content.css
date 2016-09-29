@@ -1,0 +1,114 @@
+.configure-box__content {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 800px;
+}
+
+.content__title {
+    font-family: Circe-Bold;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.content__pre-title {
+    font-family: Circe-Bold;
+    font-size: 18pt;
+    margin-top: 50px;
+}
+
+.content__form-reg {
+    margin-top: 40px;
+    height: 300px;
+}
+
+.form-reg__block-one {
+    display: inline-block;
+    height: 100%;
+    width: 370px;
+    vertical-align: top;
+}
+
+
+.form-reg__block-two {
+    display: inline-block;
+    width: 370px;
+    margin-left:30px;
+    vertical-align: top;
+}
+
+.input {
+    width: 360px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #cecece;
+    font-family: Circe-Regular;
+    font-size: 14pt;
+}
+
+.save {
+    height: 40px;
+    margin-top: 55px;
+}
+
+.save button {
+    width: 145px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: Circe-Regular;
+    font-size: 12pt;
+    background: #159a15;
+}
+
+.send-adr {
+    margin-top: 70px;
+}
+
+.send-adr__pre-title {
+    font-family: Circe-Bold;
+    font-size: 18pt;
+}
+
+.user_adr {
+    width: 760px;
+    margin-top: 25px;
+}
+
+.add {
+    margin-top: 13px;
+    height: 30px;
+}
+
+.add a {
+    text-decoration: none;
+    font-family: Circe-Regular;
+    font-size: 12pt;
+    color: #60b160;
+    border-bottom: 1px dashed;
+}
+
+.social {
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+
+.social__pre-title {
+    font-family: Circe-Bold;
+    font-size: 16pt;
+    height: 30px;
+}
+
+.webs {
+    margin-top: 5px;
+}
+
+.fb{
+    margin-left:30px;
+}

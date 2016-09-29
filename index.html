@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="css/global.css" rel="stylesheet">
+    <title>ConfigurePage</title>
+</head>
+<body>
+    <div class="configure-box">
+        <div class="configure-box__header">
+            Header
+        </div>
+        <div class="configure-box__content">
+            <div class="content__title">Настройки</div>
+            <div class="content__pre-title">Личные данные:</div>
+            <div class="content__form-reg">
+                <div class="form-reg__block-one">
+                    <form class="block-one block-form form-one">
+                        <input type="text" class="input user_name" placeholder="Имя:"/>
+                        <input type="text" class="input user_surname" placeholder="Фамилия:">
+                        <input type="text" class="input user_date" placeholder="Дата рождения: дд.мм.гг">
+                        <div class="save"><button type="submit">Сохранить</button></div>
+                    </form>
+                </div>
+                <div class="form-reg__block-two">
+                    <form class="block-two block-form form-two">
+                        <input type="email"class="input user_mail" placeholder="Почта:"/>
+                        <input type="tel"class="input user_phone" placeholder="Телефон:"/>
+                        <div class="add add-contact-tel"><a href="#">Добавить ещё один телефон</a></div>
+                    </form>
+                </div>
+                <div class="send-adr">
+                    <div class="send-adr__pre-title">Адрес доставки</div>
+                    <div class="send-adr__form-reg">
+                        <input type="text" class="input user_adr" placeholder="Адрес:"/>
+                        <div class="add add-contact-adr"><a href="#">Добавить ещё один адрес</a></div>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="social__pre-title">Социальные сети</div>
+                    <div class="webs">
+                        <input type="text" class="input vk" placeholder="Адрес страницы в Вконтакте"/>
+                        <input type="text" class="input fb" placeholder="Адрес страницы в Фейсбуке"/>
+                        <div class="save"><button type="submit">Сохранить</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/config.js"></script>
+</body>
+</html>
