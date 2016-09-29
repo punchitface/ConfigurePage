@@ -4,6 +4,83 @@
     width: 800px;
 }
 
+@media screen and (max-width: 820px) {
+    .configure-box__content {
+        width: 435px;
+        border: 1px solid;
+    }
+
+
+    .content__title {
+        padding-top: 50px;
+    }
+    .content__pre-title {
+        padding-left: 30px;
+        font-size: 13pt;
+        margin-bottom: -30px;
+    }
+
+    .form-reg__block-one {
+        margin-left: 30px;
+    }
+
+    .form-req__block-two {
+        width:300px;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+
+    .send-adr__pre-title {
+        font-size: 13pt;
+        padding-left: 30px;
+    }
+
+    .dop-adr-title {
+        padding-left: 30px;
+        font-size: 13pt;
+        margin-bottom: -20px;
+    }
+
+    .user_adr {
+        display: block;
+    }
+    .save {
+        display: block;
+        margin: 0 auto;
+        width: 370px;
+        border-radius: 5px;
+    }
+
+    .save_btn {
+        display:  none;
+    }
+
+    .mob-btn {
+        display: block;
+        width: 370px;
+        height: 50px;
+        outline: none;
+        border: none;
+        background: #159a15;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .big-input {
+
+    }
+
+    .social__pre-title {
+        padding-left: 30px;
+        font-size: 13pt;
+    }
+
+    .vk {
+        margin-left: 30px;
+    }
+}
+
 .content__title {
     font-family: Circe-Bold;
     font-size: 30pt;
@@ -17,8 +94,7 @@
 }
 
 .content__form-reg {
-    margin-top: 40px;
-    height: 300px;
+    margin-top: 50px;
 }
 
 .form-reg__block-one {
@@ -56,11 +132,11 @@
 }
 
 .save {
-    height: 40px;
-    margin-top: 55px;
+    height: 50px;
+    margin-top: 50px;
 }
 
-.save button {
+.save_btn {
     width: 145px;
     height: 40px;
     border-radius: 5px;
@@ -72,6 +148,18 @@
     font-size: 12pt;
     background: #159a15;
 }
+
+.mob-btn {
+    display: block;
+}
+
+@media screen and (min-width: 820px) {
+    .mob-btn {
+        display: none;
+    }
+
+}
+
 
 .send-adr {
     margin-top: 70px;
@@ -98,7 +186,8 @@
 .dop-adr-title {
     font-family: Circe-Bold;
     font-size: 16pt;
-    height: 30px;
+    height: 10px;
+
 }
 
 .dop-adr-text {
@@ -134,7 +223,7 @@
 .social__pre-title {
     font-family: Circe-Bold;
     font-size: 16pt;
-    height: 30px;
+    height: 40px;
 }
 
 .webs {
