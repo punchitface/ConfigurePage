@@ -23,7 +23,6 @@
 
 .form-reg__block-one {
     display: inline-block;
-    height: 100%;
     width: 370px;
     vertical-align: top;
 }
@@ -46,6 +45,14 @@
     border: 1px solid #cecece;
     font-family: Circe-Regular;
     font-size: 14pt;
+}
+
+.mini-input {
+    width: 155px;
+}
+
+.input-pad-left {
+    margin-left: 30px;
 }
 
 .save {
@@ -76,8 +83,33 @@
 }
 
 .user_adr {
-    width: 760px;
+    width: 770px;
     margin-top: 25px;
+}
+
+.dop-adr {
+    margin-top: 20px;
+}
+
+.dop-adr-content {
+    margin-top: 30px;
+}
+
+.dop-adr-title {
+    font-family: Circe-Bold;
+    font-size: 16pt;
+    height: 30px;
+}
+
+.dop-adr-text {
+    margin-top: 30px;
+}
+
+.big-input {
+    margin-top: 0;
+    height: 95px;
+    width: 770px;
+
 }
 
 .add {
@@ -113,8 +145,11 @@
     margin-left:30px;
 }
 
-.input .vk {
+.vk {
 
 }
+
+
+
 
 
