@@ -4,6 +4,7 @@
     width: 800px;
 }
 
+
 @media screen and (max-width: 820px) {
     .configure-box__content {
         width: 435px;
@@ -80,6 +81,7 @@
 
     .save_btn {
         display:  none;
+
     }
 
     .mob-btn {
@@ -92,6 +94,7 @@
         color: #fff;
         border-radius: 5px;
         cursor: pointer;
+        transition: background-color 0.5s;
     }
 
     .social__pre-title {
@@ -225,6 +228,7 @@
     font-family: Circe-Regular;
     font-size: 12pt;
     background: #159a15;
+    transition: background-color 0.5s;
 }
 
 .mob-btn {
@@ -441,6 +445,16 @@
 }
 
 
+.save_btn:hover {
+    background-color: #117d11;
+}
 
+.mob-btn:hover {
+    background-color: #117d11;
+}
+
+.new-order:hover {
+    background-color: #117d11;
+}
 
 

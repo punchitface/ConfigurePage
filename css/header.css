@@ -27,10 +27,17 @@
     font-size: 11pt;
     padding-bottom: 5px;
     vertical-align: middle;
+
+}
+
+.current-city:hover {
+    color: #117d11;
 }
 
 .current-city {
     border-bottom: 1px dashed;
+    transition: color 0.5s;
+    cursor: pointer;
 }
 
 .icon {
@@ -69,6 +76,7 @@
     border-radius: 5px;
     font-size: 11pt;
     font-family: Circe-Regular;
+    transition: background-color 0.5s;
 }
 
 .pages {
@@ -108,9 +116,14 @@
     font-size: 11pt;
     text-decoration: none;
     color: #000;
+    transition: color 0.5s;
 }
 
-@media screen and (max-width: 1057px) {
+.pages span a:hover {
+    color: #60b160;
+}
+
+@media screen and (max-width: 1100px) {
     .header__right-nav {
         display: none;
     }
